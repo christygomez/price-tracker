@@ -38,7 +38,7 @@ const getProductInfo = async (url) => {
   );
   
    
-  // console.log("productInfo OBJECT: ", productInfo);
+  console.log("productInfo OBJECT: ", productInfo);
   browser.close();
   // console.log("browser closed");
   return productInfo;
