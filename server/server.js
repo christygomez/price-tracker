@@ -33,3 +33,5 @@ app.get('/api/', (req, res) => {
 });
 
 app.listen(PORT, () => console.log('Server Running On Port ' + PORT));
+
+console.log('Here we go!')
